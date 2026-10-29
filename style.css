@@ -82,3 +82,8 @@ footer{background:#000;color:#aaa}footer a{color:#ddd}footer a:hover{color:#fff}
 .footer-quote a,.footer-quote a:hover{color:#333}
 .footer-mastodon{max-width:1160px;padding:10px;margin:auto;text-align:left;min-height:44px}
 .footer-mastodon a,.footer-mastodon a:hover{color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+
+/* Cores da paginacao iguais ao Meu Feed. */
+.pagination a{color:#bbbbbb;background:transparent;border-color:transparent}
+.pagination a:hover,.pagination a:focus-visible,.pagination [aria-current=page]{color:#000000;background:transparent;border-color:transparent}
+.pagination .ellipsis{color:#333333}
