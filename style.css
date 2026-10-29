@@ -87,3 +87,5 @@ footer{background:#000;color:#aaa}footer a{color:#ddd}footer a:hover{color:#fff}
 .pagination a{color:#bbbbbb;background:transparent;border-color:transparent}
 .pagination a:hover,.pagination a:focus-visible,.pagination [aria-current=page]{color:#000000;background:transparent;border-color:transparent}
 .pagination .ellipsis{color:#333333}
+
+.feed .card-link:hover .card-title{color:#666666}
