@@ -61,3 +61,12 @@ footer{background:#000;color:#aaa}footer a{color:#ddd}footer a:hover{color:#fff}
  .has-submenu .submenu.open{display:block}
  .submenu a{white-space:normal}
 }
+
+/* Ajustes solicitados em 29/10/2026. */
+.feed .category{color:#333333}
+.feed .tag{color:#333333;background:#cccccc}
+.detail-hero .back,.detail-hero .category{color:#ffffff}
+.detail-hero .meta{flex-direction:column;align-items:center;gap:3px}
+.detail-hero .meta time{display:block}
+.detail .source{background:#000000;color:#ffffff}
+.detail .source:hover{background:#333333}
