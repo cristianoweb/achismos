@@ -16,7 +16,7 @@ function player(item) {
 async function render() {
  const main=document.getElementById('conteudo'),hero=document.getElementById('hero-inner');
  try{
- const response=await fetch('data.json');
+ const response=await fetch('data.json?v=20261029-thumb');
  if(!response.ok)throw new Error('Dados indisponíveis');
  const items=await response.json(),params=new URLSearchParams(location.search);
  if(document.body.dataset.view==='publication'){
@@ -58,3 +58,4 @@ subButton.addEventListener('click',()=>{const open=subButton.getAttribute('aria-
 document.addEventListener('keydown',event=>{if(event.key==='Escape'){menuButton.setAttribute('aria-expanded','false');nav.classList.remove('open');subButton.setAttribute('aria-expanded','false');submenu.classList.remove('open');}});
 document.addEventListener('click',event=>{if(!event.target.closest('.has-submenu')){subButton.setAttribute('aria-expanded','false');submenu.classList.remove('open');}});
 render();
+
