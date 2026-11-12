@@ -16,7 +16,7 @@ function player(item) {
 async function render() {
  const main=document.getElementById('conteudo'),hero=document.getElementById('hero-inner');
  try{
- const response=await fetch('data.json?v=20261029-thumb');
+ const response=await fetch('data.json?v=20261112');
  if(!response.ok)throw new Error('Dados indisponíveis');
  const items=await response.json(),params=new URLSearchParams(location.search);
  if(document.body.dataset.view==='publication'){
